@@ -15,6 +15,9 @@ if ('serviceWorker' in navigator) {
 }
 
 // queryselectory
+const key = new Date().toISOString().slice(0, 10)
+
+
 const value = document.querySelector('.water__number--js')
 value.innerHTML = '0'
 
