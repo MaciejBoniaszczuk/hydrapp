@@ -311,12 +311,73 @@ html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   -webkit-box-sizing: inherit;
           box-sizing: inherit; }
 
 body {
   color: #F9C802;
-  background: #000; }
+  background: #3767AD;
+  min-height: 100vh;
+  padding: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.add__button {
+  border-radius: 6px;
+  max-width: 216px;
+  width: 100%;
+  min-height: 47px;
+  font-weight: bold;
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25); }
+
+.button__section {
+  font-family: 'Roboto';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 48px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.remove__button {
+  margin-top: 37px;
+  max-width: 184px;
+  width: 100%;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  color: #F5E5E7; }
+
+.water__number {
+  color: black;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  position: absolute;
+  font-size: 112px;
+  text-align: center;
+  padding-left: 107.865px; }
+
+.main__content {
+  position: relative; }
 
 /*# sourceMappingURL=main.css.map */
