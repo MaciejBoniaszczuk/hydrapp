@@ -4,6 +4,7 @@
 
 html {
   box-sizing: border-box;
+  background: $blue;
 }
 
 *,
@@ -13,13 +14,13 @@ html {
 }
 
 body {
-  color: $yellow;
   background: $blue;
   min-height: 100vh;
   padding: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: 'Roboto';
 }
 
 .add__button {
@@ -33,7 +34,6 @@ body {
 }
 
 .button__section {
-  font-family: 'Roboto';
   display: flex;
   padding-top: 48px;
   flex-direction: column;
@@ -56,7 +56,6 @@ body {
 
 .water__number {
   color: black;
-  font-family: Roboto, sans-serif;
   font-weight: bold;
   position: absolute;
   font-size: 112px;
