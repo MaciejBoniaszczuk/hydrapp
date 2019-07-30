@@ -15,57 +15,62 @@ html {
 
 body {
   background: $blue;
+  font-family: 'Roboto';
+  color: white;
+  font-weight: 520;
   min-height: 100vh;
-  padding: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Roboto';
+  padding: 16px;
 }
 
-.add__button {
-  border-radius: 6px;
-  max-width: 216px;
-  width: 100%;
-  min-height: 47px;
-  font-weight: bold;
-  background-color: #FFFFFF;
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
+.button-add {
+  padding: 12px;
+  font-size: 18px;
+  color: #000;
+  border: none;
+  border-radius: 4px;
+  background: #fff;
+  min-width: 216px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 48px 0 26px;
 }
 
-.button__section {
+.button-remove {
+  background: none;
+  border: none;
+  min-width: 216px;
+  color: #f5e5e7;
+  font-size: 14px;
+}
+
+.counter {
+  width: 280px;
+  height: 280px;
+  background: url('../assets/img/hydrapp.svg') center center;
+  background-size: contain;
   display: flex;
-  padding-top: 48px;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-size: 112px;
+
+  &__value {
+    padding-top: 64px;
+    display: block;
+  }
+}
+
+.heading {
+  font-size: 55px;
+  margin: 0 0 64px 0;
+  padding: 0;
+}
+
+.main {
+  display: flex;
   flex-direction: column;
   align-items: center;
-
-}
-
-.remove__button {
-  margin-top: 37px;
-  max-width: 184px;
-  width: 100%;
-  background-color: Transparent;
-  background-repeat: no-repeat;
-  border: none;
-  cursor: pointer;
-  overflow: hidden;
-  outline: none;
-  color: #F5E5E7;
-}
-
-.water__number {
-  color: black;
-  font-weight: bold;
-  position: absolute;
-  font-size: 112px;
-  text-align: center;
-  padding-left: 107.865px;
-
-
-}
-
-.main__content {
-  position: relative;
 
 }
