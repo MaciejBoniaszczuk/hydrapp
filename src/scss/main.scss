@@ -6,11 +6,67 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
 body {
   color: $yellow;
-  background: $violet;
+  background: $blue;
+  min-height: 100vh;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add__button {
+  border-radius: 6px;
+  max-width: 216px;
+  width: 100%;
+  min-height: 47px;
+  font-weight: bold;
+  background-color: #FFFFFF;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+.button__section {
+  font-family: 'Roboto';
+  display: flex;
+  padding-top: 48px;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.remove__button {
+  margin-top: 37px;
+  max-width: 184px;
+  width: 100%;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  color: #F5E5E7;
+}
+
+.water__number {
+  color: black;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  position: absolute;
+  font-size: 112px;
+  text-align: center;
+  padding-left: 107.865px;
+
+
+}
+
+.main__content {
+  position: relative;
+
 }
