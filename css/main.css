@@ -373,6 +373,8 @@ body {
   .counter__value {
     padding-top: 64px;
     display: block; }
+  .counter__valueGreen {
+    color: #00ff00; }
 
 .heading {
   font-size: 55px;
@@ -390,5 +392,18 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
+
+.menuButtons {
+  padding-top: 32px; }
+
+a:link {
+  text-decoration: none;
+  color: black; }
+
+a:visited {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
 
 /*# sourceMappingURL=main.css.map */
