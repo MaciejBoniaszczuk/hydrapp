@@ -401,9 +401,11 @@ a:link {
   color: black; }
 
 a:visited {
-  text-decoration: none; }
+  text-decoration: none;
+  color: black; }
 
 a:hover {
-  text-decoration: none; }
+  text-decoration: none;
+  color: black; }
 
 /*# sourceMappingURL=main.css.map */
