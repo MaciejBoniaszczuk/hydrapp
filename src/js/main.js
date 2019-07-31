@@ -14,7 +14,7 @@ if ('serviceWorker' in navigator) {
   });
 }
 
-// kod js tutaj
+// place your code below
 
 const buttonAdd = document.querySelector('.button-add--js');
 const buttonRemove = document.querySelector('.button-remove--js');
@@ -31,6 +31,9 @@ if (!localStorage.getItem(key)) {
 buttonAdd.addEventListener('click', (e) => {
   localStorage.setItem(key, parseInt(localStorage.getItem(key)) + 1)
   value.innerHTML = localStorage.getItem(key);
+  if (localStorage.getItem(key) >= 10) {
+    value.classList.add('counter__valueGreen');
+  }
 })
 
 buttonRemove.addEventListener('click', (e) => {
@@ -39,4 +42,8 @@ buttonRemove.addEventListener('click', (e) => {
     localStorage.setItem(key, localStorage.getItem(key) - 1);
     value.innerHTML = localStorage.getItem(key);
   }
+  if (localStorage.getItem(key) < 10) {
+    value.classList.remove('counter__valueGreen');
+  }
+
 })

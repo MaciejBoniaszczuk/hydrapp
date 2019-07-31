@@ -60,6 +60,11 @@ body {
     padding-top: 64px;
     display: block;
   }
+
+  &__valueGreen {
+    color: #00ff00;
+
+  }
 }
 
 .heading {
@@ -73,4 +78,21 @@ body {
   flex-direction: column;
   align-items: center;
 
+}
+
+.menuButtons {
+  padding-top: 32px;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none
+}
+
+a:hover {
+  text-decoration: none;
 }
