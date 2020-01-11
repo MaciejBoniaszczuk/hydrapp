@@ -2,7 +2,7 @@
 
 ## aplikacja pozwalająca monitorować spożywanie wody
 
-## Tools & technologies I've used
+## Narzędzia i technologie, których użyłem
 
 - Visual Studio Code
 - HTML5 semantic
