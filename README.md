@@ -1,9 +1,14 @@
-# wtf-gulp-starter
+# Hydrapp
 
-`npm install -g gulp-cli`
+## aplikacja pozwalająca monitorować spożywanie wody
 
-`npm install`
+## Tools & technologies I've used
 
-`gulp`
+- Visual Studio Code
+- HTML5 semantic
+- CSS
+- JS
+- PWA
+- LocalStorage
 
-To publish your page using github pages use `npm run deploy`
+![Maciej Bonaiszczuk Personal CV](src/assets/img/cover.png)
